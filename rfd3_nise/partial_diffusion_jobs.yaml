@@ -1,0 +1,311 @@
+# Partial diffusion of the three oxaliplatin complexes that passed the gate.
+# partial_t is angstroms of noise in the installed Foundry RFD3. The values
+# 11, 13, 15, 21, 23, 25 and 800 scaffolds per value follow Wang et al. 2026,
+# doi:10.1016/j.apsb.2026.08.031. Inputs are RFD3-form parents written by
+# prepare_parents.py. select_fixed_atoms is the ligand only.
+
+oxp_seq_57_t11:
+  input: parents/seq_57_rfd3.pdb
+  ligand: l:g
+  partial_t: 11
+  select_fixed_atoms: C1
+  redesign_motif_sidechains: false
+  infer_ori_strategy: hotspots
+  is_non_loopy: true
+  select_hotspots:
+    C1: C1,C2,O1,O2,O3,O4,C3,C4
+  select_buried:
+    C1: C1,C2,O1,O2,O3,O4
+  select_exposed:
+    C1: C5,C6,C7,C8
+  select_hbond_acceptor:
+    C1: O3,O4
+
+oxp_seq_57_t13:
+  input: parents/seq_57_rfd3.pdb
+  ligand: l:g
+  partial_t: 13
+  select_fixed_atoms: C1
+  redesign_motif_sidechains: false
+  infer_ori_strategy: hotspots
+  is_non_loopy: true
+  select_hotspots:
+    C1: C1,C2,O1,O2,O3,O4,C3,C4
+  select_buried:
+    C1: C1,C2,O1,O2,O3,O4
+  select_exposed:
+    C1: C5,C6,C7,C8
+  select_hbond_acceptor:
+    C1: O3,O4
+
+oxp_seq_57_t15:
+  input: parents/seq_57_rfd3.pdb
+  ligand: l:g
+  partial_t: 15
+  select_fixed_atoms: C1
+  redesign_motif_sidechains: false
+  infer_ori_strategy: hotspots
+  is_non_loopy: true
+  select_hotspots:
+    C1: C1,C2,O1,O2,O3,O4,C3,C4
+  select_buried:
+    C1: C1,C2,O1,O2,O3,O4
+  select_exposed:
+    C1: C5,C6,C7,C8
+  select_hbond_acceptor:
+    C1: O3,O4
+
+oxp_seq_57_t21:
+  input: parents/seq_57_rfd3.pdb
+  ligand: l:g
+  partial_t: 21
+  select_fixed_atoms: C1
+  redesign_motif_sidechains: false
+  infer_ori_strategy: hotspots
+  is_non_loopy: true
+  select_hotspots:
+    C1: C1,C2,O1,O2,O3,O4,C3,C4
+  select_buried:
+    C1: C1,C2,O1,O2,O3,O4
+  select_exposed:
+    C1: C5,C6,C7,C8
+  select_hbond_acceptor:
+    C1: O3,O4
+
+oxp_seq_57_t23:
+  input: parents/seq_57_rfd3.pdb
+  ligand: l:g
+  partial_t: 23
+  select_fixed_atoms: C1
+  redesign_motif_sidechains: false
+  infer_ori_strategy: hotspots
+  is_non_loopy: true
+  select_hotspots:
+    C1: C1,C2,O1,O2,O3,O4,C3,C4
+  select_buried:
+    C1: C1,C2,O1,O2,O3,O4
+  select_exposed:
+    C1: C5,C6,C7,C8
+  select_hbond_acceptor:
+    C1: O3,O4
+
+oxp_seq_57_t25:
+  input: parents/seq_57_rfd3.pdb
+  ligand: l:g
+  partial_t: 25
+  select_fixed_atoms: C1
+  redesign_motif_sidechains: false
+  infer_ori_strategy: hotspots
+  is_non_loopy: true
+  select_hotspots:
+    C1: C1,C2,O1,O2,O3,O4,C3,C4
+  select_buried:
+    C1: C1,C2,O1,O2,O3,O4
+  select_exposed:
+    C1: C5,C6,C7,C8
+  select_hbond_acceptor:
+    C1: O3,O4
+
+oxp_seq_67_t11:
+  input: parents/seq_67_rfd3.pdb
+  ligand: l:g
+  partial_t: 11
+  select_fixed_atoms: C1
+  redesign_motif_sidechains: false
+  infer_ori_strategy: hotspots
+  is_non_loopy: true
+  select_hotspots:
+    C1: C1,C2,O1,O2,O3,O4,C3,C4
+  select_buried:
+    C1: C1,C2,O1,O2,O3,O4
+  select_exposed:
+    C1: C5,C6,C7,C8
+  select_hbond_acceptor:
+    C1: O3,O4
+
+oxp_seq_67_t13:
+  input: parents/seq_67_rfd3.pdb
+  ligand: l:g
+  partial_t: 13
+  select_fixed_atoms: C1
+  redesign_motif_sidechains: false
+  infer_ori_strategy: hotspots
+  is_non_loopy: true
+  select_hotspots:
+    C1: C1,C2,O1,O2,O3,O4,C3,C4
+  select_buried:
+    C1: C1,C2,O1,O2,O3,O4
+  select_exposed:
+    C1: C5,C6,C7,C8
+  select_hbond_acceptor:
+    C1: O3,O4
+
+oxp_seq_67_t15:
+  input: parents/seq_67_rfd3.pdb
+  ligand: l:g
+  partial_t: 15
+  select_fixed_atoms: C1
+  redesign_motif_sidechains: false
+  infer_ori_strategy: hotspots
+  is_non_loopy: true
+  select_hotspots:
+    C1: C1,C2,O1,O2,O3,O4,C3,C4
+  select_buried:
+    C1: C1,C2,O1,O2,O3,O4
+  select_exposed:
+    C1: C5,C6,C7,C8
+  select_hbond_acceptor:
+    C1: O3,O4
+
+oxp_seq_67_t21:
+  input: parents/seq_67_rfd3.pdb
+  ligand: l:g
+  partial_t: 21
+  select_fixed_atoms: C1
+  redesign_motif_sidechains: false
+  infer_ori_strategy: hotspots
+  is_non_loopy: true
+  select_hotspots:
+    C1: C1,C2,O1,O2,O3,O4,C3,C4
+  select_buried:
+    C1: C1,C2,O1,O2,O3,O4
+  select_exposed:
+    C1: C5,C6,C7,C8
+  select_hbond_acceptor:
+    C1: O3,O4
+
+oxp_seq_67_t23:
+  input: parents/seq_67_rfd3.pdb
+  ligand: l:g
+  partial_t: 23
+  select_fixed_atoms: C1
+  redesign_motif_sidechains: false
+  infer_ori_strategy: hotspots
+  is_non_loopy: true
+  select_hotspots:
+    C1: C1,C2,O1,O2,O3,O4,C3,C4
+  select_buried:
+    C1: C1,C2,O1,O2,O3,O4
+  select_exposed:
+    C1: C5,C6,C7,C8
+  select_hbond_acceptor:
+    C1: O3,O4
+
+oxp_seq_67_t25:
+  input: parents/seq_67_rfd3.pdb
+  ligand: l:g
+  partial_t: 25
+  select_fixed_atoms: C1
+  redesign_motif_sidechains: false
+  infer_ori_strategy: hotspots
+  is_non_loopy: true
+  select_hotspots:
+    C1: C1,C2,O1,O2,O3,O4,C3,C4
+  select_buried:
+    C1: C1,C2,O1,O2,O3,O4
+  select_exposed:
+    C1: C5,C6,C7,C8
+  select_hbond_acceptor:
+    C1: O3,O4
+
+oxp_seq_126_t11:
+  input: parents/seq_126_rfd3.pdb
+  ligand: l:g
+  partial_t: 11
+  select_fixed_atoms: C1
+  redesign_motif_sidechains: false
+  infer_ori_strategy: hotspots
+  is_non_loopy: true
+  select_hotspots:
+    C1: C1,C2,O1,O2,O3,O4,C3,C4
+  select_buried:
+    C1: C1,C2,O1,O2,O3,O4
+  select_exposed:
+    C1: C5,C6,C7,C8
+  select_hbond_acceptor:
+    C1: O3,O4
+
+oxp_seq_126_t13:
+  input: parents/seq_126_rfd3.pdb
+  ligand: l:g
+  partial_t: 13
+  select_fixed_atoms: C1
+  redesign_motif_sidechains: false
+  infer_ori_strategy: hotspots
+  is_non_loopy: true
+  select_hotspots:
+    C1: C1,C2,O1,O2,O3,O4,C3,C4
+  select_buried:
+    C1: C1,C2,O1,O2,O3,O4
+  select_exposed:
+    C1: C5,C6,C7,C8
+  select_hbond_acceptor:
+    C1: O3,O4
+
+oxp_seq_126_t15:
+  input: parents/seq_126_rfd3.pdb
+  ligand: l:g
+  partial_t: 15
+  select_fixed_atoms: C1
+  redesign_motif_sidechains: false
+  infer_ori_strategy: hotspots
+  is_non_loopy: true
+  select_hotspots:
+    C1: C1,C2,O1,O2,O3,O4,C3,C4
+  select_buried:
+    C1: C1,C2,O1,O2,O3,O4
+  select_exposed:
+    C1: C5,C6,C7,C8
+  select_hbond_acceptor:
+    C1: O3,O4
+
+oxp_seq_126_t21:
+  input: parents/seq_126_rfd3.pdb
+  ligand: l:g
+  partial_t: 21
+  select_fixed_atoms: C1
+  redesign_motif_sidechains: false
+  infer_ori_strategy: hotspots
+  is_non_loopy: true
+  select_hotspots:
+    C1: C1,C2,O1,O2,O3,O4,C3,C4
+  select_buried:
+    C1: C1,C2,O1,O2,O3,O4
+  select_exposed:
+    C1: C5,C6,C7,C8
+  select_hbond_acceptor:
+    C1: O3,O4
+
+oxp_seq_126_t23:
+  input: parents/seq_126_rfd3.pdb
+  ligand: l:g
+  partial_t: 23
+  select_fixed_atoms: C1
+  redesign_motif_sidechains: false
+  infer_ori_strategy: hotspots
+  is_non_loopy: true
+  select_hotspots:
+    C1: C1,C2,O1,O2,O3,O4,C3,C4
+  select_buried:
+    C1: C1,C2,O1,O2,O3,O4
+  select_exposed:
+    C1: C5,C6,C7,C8
+  select_hbond_acceptor:
+    C1: O3,O4
+
+oxp_seq_126_t25:
+  input: parents/seq_126_rfd3.pdb
+  ligand: l:g
+  partial_t: 25
+  select_fixed_atoms: C1
+  redesign_motif_sidechains: false
+  infer_ori_strategy: hotspots
+  is_non_loopy: true
+  select_hotspots:
+    C1: C1,C2,O1,O2,O3,O4,C3,C4
+  select_buried:
+    C1: C1,C2,O1,O2,O3,O4
+  select_exposed:
+    C1: C5,C6,C7,C8
+  select_hbond_acceptor:
+    C1: O3,O4

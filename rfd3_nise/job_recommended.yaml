@@ -1,0 +1,22 @@
+# Single-job campaign YAML. One named job, so n_batches is not multiplied.
+#
+# Input is a square-planar oxaliplatin pose, residue name l:g, chain C residue 1.
+# The oxalate (C1,C2,O1–O4) is the buried face. Carbonyls O3 and O4 are the
+# hydrogen-bond acceptors. Distal cyclohexane carbons C5–C8 stay exposed.
+# Platinum, the two nitrogens, and C3/C4 are not forced either way.
+
+oxaliplatin_oxalate_150_200:
+  input: C:/Users/EDY/Documents/GitHub/NISE/campaigns/oxaliplatin/ligand/conformers/rfd3_inputs/oxaliplatin_oxalate_face.pdb
+  ligand: l:g
+  contig: 150-200,/0,C1-1
+  redesign_motif_sidechains: false
+  infer_ori_strategy: hotspots
+  is_non_loopy: true
+  select_hotspots:
+    C1: C1,C2,O1,O2,O3,O4
+  select_buried:
+    C1: C1,C2,O1,O2,O3,O4
+  select_exposed:
+    C1: C5,C6,C7,C8
+  select_hbond_acceptor:
+    C1: O3,O4
